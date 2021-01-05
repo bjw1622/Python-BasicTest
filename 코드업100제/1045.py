@@ -1,0 +1,10 @@
+a,b = input().split(" ")
+a = float(a)
+b = float(b)
+
+print(int(a+b))
+print(int(a-b))
+print(int(a*b))
+print(int(a/b))
+print(int(a%b))
+print("%.2f" %(a/b))
