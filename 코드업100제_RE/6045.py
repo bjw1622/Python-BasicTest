@@ -1,0 +1,4 @@
+a,b,c =  map(int,input().split())
+
+print(f"{a+b+c}",end=" ")
+print(f"{(a+b+c)/3:.2f}")
